@@ -8,7 +8,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'LoginScreen'>;
 
-const LoginScreen = ({ navigation }: Props) => {
+export default function LoginScreen ({ navigation }: Props) {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
 
@@ -131,5 +131,4 @@ const LoginScreen = ({ navigation }: Props) => {
   );
 };
 
-export default LoginScreen;
 

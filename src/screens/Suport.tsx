@@ -74,9 +74,6 @@ export default function Suport({ navigation }: Props) {
               <FontAwesome5 name="instagram" size={20} color="black" />
               <Text className="ml-2 text-base">@petto on Instagram</Text>
             </View>
-
-            {/* COISAS PRA TESTAR O LOGIN (RETIRAR DEPOIS) */}
-            
           </View>
         </View>
 

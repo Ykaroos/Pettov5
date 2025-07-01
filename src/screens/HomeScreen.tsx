@@ -8,6 +8,7 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/types/types';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
+
 type Pet = {
   id: number;
   nome: string;

@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ykaroos.PettoApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "350a0d4e-85ad-4539-bbc0-1e4f4f877f5e"
+      }
+    },
+    "owner": "ykaroos"
   }
 }

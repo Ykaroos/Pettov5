@@ -13,7 +13,6 @@ export default function RegisterUser ({ navigation }: Props) {
   const [senha, setSenha] = useState('');
   const [confirmaSenha, setConfirmaSenha] = useState('');
 
-  // Função simples para validar email
   const validarEmail = (email: string) => {
     const re = /\S+@\S+\.\S+/;
     return re.test(email);

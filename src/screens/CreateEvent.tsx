@@ -1,21 +1,8 @@
 import { useEffect, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import {
-  View,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  Image,
-  Alert,
-  ActivityIndicator,
-} from 'react-native';
+import {View, Text, TextInput, TouchableOpacity, Image, Alert, ActivityIndicator,} from 'react-native';
 import { Stack } from 'expo-router';
-import {
-  Ionicons,
-  MaterialIcons,
-  FontAwesome5,
-  FontAwesome6,
-} from '@expo/vector-icons';
+import {Ionicons, MaterialIcons, FontAwesome5, FontAwesome6,} from '@expo/vector-icons';
 import { Picker } from '@react-native-picker/picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -81,8 +68,8 @@ export default function CreateEvent({ navigation }: Props) {
         body: JSON.stringify({
           summary: title,
           description: `Evento para o pet ID ${selectedPet}`,
-          startDate, // Ex: "2025-07-01"
-          endDate,   // Ex: "2025-07-02"
+          startDate,
+          endDate,
         }),
       });
 

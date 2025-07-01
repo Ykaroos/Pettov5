@@ -103,7 +103,7 @@ export default function Agender({ navigation }: Props) {
     }
 
     return filteredEvents.map((event) => {
-      const match = event.description?.match(/pet id (\d+)/i); // <- usa regex flexível
+      const match = event.description?.match(/pet id (\d+)/i);
       const petId = match ? parseInt(match[1]) : null;
       const pet = petId ? getPetById(petId) : null;
 

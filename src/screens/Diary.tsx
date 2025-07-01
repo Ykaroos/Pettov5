@@ -29,8 +29,6 @@ export default function Diary({ navigation }: Props) {
       try {
         const response = await fetch(`https://petto-api.onrender.com/pets/carrossel/${id_usuario}`);
         const data = await response.json();
-
-        // Mapear resposta da API para o formato esperado pelo componente
         const formattedPets = data.map((pet: any) => ({
           id: pet.id,
           nome: pet.nome,
