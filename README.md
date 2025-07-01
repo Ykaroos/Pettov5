@@ -1,17 +1,21 @@
-# Welcome to your Expo app 👋
+# Bem Vindo ao Petto
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Para rodar localmente
 
-## Get started
-
-1. Install dependencies
+1. Instale as Dependencias
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Inicie o App
 
    ```bash
    npx expo start
    ```
+## 📲 Download do Aplicativo
+
+Você pode baixar o APK diretamente pelo link abaixo:
+
+🔗 [Baixar APK Android](https://expo.dev/accounts/ykaroos/projects/PettoApp/builds/5118de80-5255-45a9-9399-244bb7ac6795)
+
