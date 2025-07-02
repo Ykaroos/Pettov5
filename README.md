@@ -19,3 +19,6 @@ Você pode baixar o APK diretamente pelo link abaixo:
 
 🔗 [Baixar APK Android](https://expo.dev/accounts/ykaroos/projects/PettoApp/builds/5118de80-5255-45a9-9399-244bb7ac6795)
 
+## Documento de requisitos
+🔗 [Acesse o documento](https://docs.google.com/document/d/1wwbSQx1XB07dqOP-XF9yeprIGGiAdvOboyNJJ3mmh0g/edit?pli=1&tab=t.0)
+
